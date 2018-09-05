@@ -18,5 +18,9 @@ namespace AutoDeploy.Controllers.Tests {
         public void GetTestList() {
             Assert.Fail();
         }
+        [TestMethod()]
+        public void GetTestLis2t() {
+            Assert.Fail();
+        }
     }
 }
