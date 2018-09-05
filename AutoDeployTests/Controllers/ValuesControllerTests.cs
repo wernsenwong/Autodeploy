@@ -9,18 +9,23 @@ using System.Threading.Tasks;
 namespace AutoDeploy.Controllers.Tests {
     [TestClass()]
     public class ValuesControllerTests {
-        [TestMethod()]
-        public void GetTestSingle() {
-            Assert.IsTrue(true);
+        private ValuesController valuesController;
+
+        [TestInitialize]
+        public void TestInitialize() {
+            this.valuesController = new ValuesController();
         }
 
         [TestMethod()]
-        public void GetTestList() {
-            Assert.IsTrue(true);
+        public void TestGetMultiple() {
+            var returnResult = valuesController.Get();
+            Assert.AreEqual(returnResult.Count(), 2);
         }
+
         [TestMethod()]
-        public void GetTestLis2t() {
-            Assert.IsTrue(true);
+        public void TestGetSingle() {
+            var returnResult = valuesController.Get(1);
+            Assert.AreEqual(returnResult, "value");
         }
     }
 }
