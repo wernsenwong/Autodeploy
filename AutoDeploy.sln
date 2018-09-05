@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoDeploy", "AutoDeploy\AutoDeploy.csproj", "{D347F8D4-0E75-4858-8096-8978A27A270F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoDeployTests", "AutoDeployTests\AutoDeployTests.csproj", "{06E3A381-3F69-47BE-A38B-D5899B13B374}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{D347F8D4-0E75-4858-8096-8978A27A270F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D347F8D4-0E75-4858-8096-8978A27A270F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D347F8D4-0E75-4858-8096-8978A27A270F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06E3A381-3F69-47BE-A38B-D5899B13B374}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06E3A381-3F69-47BE-A38B-D5899B13B374}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06E3A381-3F69-47BE-A38B-D5899B13B374}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06E3A381-3F69-47BE-A38B-D5899B13B374}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
